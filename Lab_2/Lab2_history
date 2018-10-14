@@ -1,0 +1,71 @@
+  173  mkdir tets
+  174  rm tets
+  175  rm -fr tets
+  176  ls
+  177  mkdir test
+  178  ls
+  179  cd test
+  180  touch file
+  181  ls
+  182  chmod 000 file
+  183  ls -l
+  184  echo 'тест' > file
+  185  cat file
+  186  ll
+  187  11
+  188  ll
+  189  chmod 200
+  190  chmod 200 file
+  191  ll
+  192  echo 'test' > file
+  193  cat file
+  194  chmod 240 file
+  195  ll
+  196  cat file
+  197  chmod 640 file
+  198  ls -1
+  199  ll
+  200  cat file
+  201  mkdir dir
+  202  touch dir/new_file
+  203  ls
+  204  ls ?dir
+  205  ls /dir
+  206  ls dir
+  207  echo 'file_2' > dir/new_file
+  208  ll
+  209  chmod 664 dir
+  210  ll
+  211  ls dir
+  212  cat dir/new_file
+  213  rm dir?new_file
+  214  rm dir/new_file
+  215  chown root file
+  216  chgrp roor file
+  217  chgrp root file
+  218  ll dir
+  219  ll
+  220  umask 600
+  221  touch file2
+  222  ll
+  223  umask 700
+  224  touch file3
+  225  ll
+  226  umask 666
+  227  touch file4
+  228  ll
+  229  cat file4
+  230  cat file3
+  231  umask 177
+  232  ll
+  233  touch file2
+  234  ll
+  235  touch file5
+  236  ll
+  237  umask 111
+  238  touch file6
+  239  ll
+  240  cd
+  241  ls -lr > lab2_lr.txt
+  242  ls
+  243  history > lab2_history.txt
