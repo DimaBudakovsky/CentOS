@@ -1,0 +1,17 @@
+итого 72
+drwxr-xr-x. 2 dima-2 dima-2     6 сен 24 11:14 Шаблоны
+drwxr-xr-x. 2 dima-2 dima-2    40 сен 24 11:15 Рабочий стол
+drwxr-xr-x. 2 dima-2 dima-2     6 сен 24 11:14 Общедоступные
+drwxr-xr-x. 2 dima-2 dima-2     6 сен 24 11:14 Музыка
+drwxr-xr-x. 2 dima-2 dima-2     6 сен 24 11:14 Изображения
+drwxr-xr-x. 2 dima-2 dima-2     6 сен 24 11:14 Загрузки
+drwxr-xr-x. 2 dima-2 dima-2     6 сен 24 11:14 Документы
+drwxr-xr-x. 2 dima-2 dima-2     6 сен 24 11:14 Видео
+drwxrwxr-x. 3 dima-2 dima-2    94 окт 14 18:40 test
+-rw-rw-r--. 1 dima-2 dima-2 61150 окт 11 04:26 README-ru.md
+lrwxrwxrwx. 1 dima-2 dima-2    11 окт 11 03:23 passwd_link -> /etc/passwd
+-rw-r--r--. 1 dima-2 dima-2  2243 окт 14 16:49 passwd
+-rw-rw-rw-. 1 dima-2 dima-2     0 окт 14 18:50 lab2_lr.txt
+-rw-rw-r--. 1 dima-2 dima-2  4076 окт 14 17:39 lab1_history.txt
+-rw-------. 2 dima-2 dima-2  2909 окт 14 17:58 history_hard
+drwxrwxr-x. 2 dima-2 dima-2    68 окт 14 16:58 animals
