@@ -1,0 +1,171 @@
+    1  bash
+    2  man
+    3  whoami
+    4  whoaim
+    5  whoami
+    6  echo "Hello World"
+    7  apropos -s1 время
+    8  subo /etc/cron.daily/man-db.cron
+    9  apropos -s1 time
+   10  apropos time
+   11  subo /etc/cron.daily/man-db.cron
+   12  apropos -s1 date
+   13  date
+   14  cal
+   15  man cal
+   16  cal -3
+   17  history
+   18  clear
+   19  man cal
+   20  pwd
+   21  cd /
+   22  pwd
+   23  cd ..
+   24  pwd
+   25  ls
+   26  whoami
+   27  whoaim
+   28  whoami
+   29  echo "Hello World"
+   30  echo Hello World
+   31  apropos -s1 time
+   32  date
+   33  cal
+   34  cal -3
+   35  man cal
+   36  history
+   37  clear
+   38  history
+   39  pwd
+   40  cd /
+   41  cd..
+   42  pwd
+   43  ls
+   44  ls /var
+   45  cd~
+   46  cd ~
+   47  pwd
+   48  cd..
+   49  cd ..
+   50  pwd
+   51  ls
+   52  ls -l
+   53  mkdir fruits
+   54  pwd
+   55  cd ~
+   56  pwd
+   57  mkdir fruits
+   58  cd /
+   59  pwd
+   60  mkdir ~/animals
+   61  touch /tmp/temp
+   62  cd /fruits
+   63  cd ~/fruits
+   64  touch apple banan pineaple lion
+   65  ls
+   66  touch /animals/cat.txt
+   67  touch ~/animals/cat.txt
+   68  touch ~/animals/dog.txt
+   69  touch ~/animals/elephant.txt
+   70  cd ~
+   71  ls
+   72  cd animals
+   73  ls
+   74  cd ~/fruits
+   75  ls -l apple
+   76  ls b*
+   77  ls *a
+   78  ls a*
+   79  ls [bi]*
+   80  ls b* i*
+   81  ls *i
+   82  ls i*
+   83  ls *[bi]*
+   84  cp /etc/passwd
+   85  cp /etc/passwd ~
+   86  cat /etc/issue
+   87  cp /etc/passwd ~/fruits/animals
+   88  ls
+   89  rm animals
+   90  ls
+   91  cp /etc/passwd ~/fruits/apple
+   92  ls
+   93  cat apple
+   94  cp /etc/issue apple
+   95  cat apple
+   96  mv lion ~/animals
+   97  ls animals
+   98  ls ~/animals
+   99  mv pineaple pineapple
+  100  ls
+  101  man wc
+  102  ws -l /etc/passwd
+  103  wc -l /etc/passwd
+  104  cd
+  105  ln -s /etc/passwd passwd_link
+  106  ls
+  107  ln .bash_history history_hard
+  108  ls
+  109  ls -l ~/.bash_history
+  110  ls -l
+  111  rm fruits/apple
+  112  ls fruits
+  113  mkdir rmme
+  114  ls
+  115  rmdir rmme
+  116  ls
+  117  rmdir fruits
+  118  rm -fr fruits
+  119  ls
+  120  cat /etc/passwd /var/log/boot.log 
+  121  cp /etc/init.d/ ~
+  122  cp -r /etc/init.d/ ~
+  123  ls ~
+  124  rm -fr init.d
+  125  ls ~
+  126  cut -d: -f1 /etc/passwd | sort
+  127  cut -d: -f1,3,4 /etc/passwd | column -ts: | less
+  128  cut /etc/passwd
+  129  cat /etc/passwd
+  130  cut -d: -f1,2 /etc/passwd | column -ts: | less
+  131  grep :/bin/bash /etc/passwd | wc -l
+  132  man grep
+  133  man sort
+  134  grep :/bin/bash /etc/passwd | sort -r | less
+  135  rmp -qa --qf '%{NAME}: %{SIZE}\n' | sort -rn -k2,2 | head -25
+  136  rpm -qa --qf '%{NAME}: %{SIZE}\n' | sort -rn -k2,2 | head -25
+  137  rpm -ql man-db | xargs -l du 2> /dev/null | sort -n
+  138  man sort
+  139  top -b -n1 | sort -k 12
+  140  top -b -n1 | awk '{printf "%35s %s\n", $12, $6}'
+  141  sort passwd | tr ":" " "
+  142  sort -k 1 | awk -F: '{printf "%15s %s\n", $1, $7}'
+  143  ls
+  144  sort -k 1 passwd
+  145  sort -k 1 passwd | awk -F: '{printf "%15s %s\n", $1, $7}'
+  146  yum install -y git
+  147  git
+  148  cd /usr/share/doc/git-*
+  149  cat user-manual.txt | tr ' ' '\012' | tr '[:upper:]' '[:lower:]' | tr -d '[:punct:]' | grep -v '[^a-z]' | sort | uniq -c | sort -rn | head -5
+  150  cat user-manual.txt | tr -cs '[:alpha:]' '\n' | tr '[:upper:]' '[:lower:]' | sort | uniq -c | sort -rn | head -5
+  151  tr '[:lower:]' '[:upper:]' < user-manual.txt | tr -d '[:punct:] \n\t' | fold -w1 | sort | uniq -c | sort -rn | head -5
+  152  tr -cs '[:alpha:]' '\n' < user-manual.txt | less | grep -E ........ | sort | uniq -c | sort -rn | head
+  153  ping ya.ru
+  154  curl wttr.in
+  155  hostname -I
+  156  curl ifconfig.me
+  157  wget https://raw.githubusercontent.com/jlevy/the-art-of-command-line/master/README-ru.md
+  158  less README-ru.md
+  159  less README-ru
+  160  id
+  161  whoami
+  162  sudo id
+  163  whoami
+  164  sudo less /var/log/messages
+  165  less /var/log/messages
+  166  su
+  167  hictory > lab1_history.txt
+  168  cd~
+  169  cd
+  170  hictory > lab1_history.txt
+  171  history > lab1_history.txt
